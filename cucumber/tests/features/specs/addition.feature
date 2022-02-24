@@ -1,9 +1,10 @@
 
+@adicao
 Feature: Do an addition
 
 - Description
 
-@addition
+@addition @comeco @fim
 Scenario: Do an addition
 When I do 2 + 2
 Then the result must be 4
