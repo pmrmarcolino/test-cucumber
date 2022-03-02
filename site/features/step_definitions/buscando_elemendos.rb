@@ -1,5 +1,5 @@
 Quando('acesso a url de botoes') do
-    visit 'buscaelementos/botoes'
+    visit '/buscaelementos/botoes'
   end
   
   Então('verifico se encontrei os elementos') do

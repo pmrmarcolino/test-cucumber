@@ -1,6 +1,6 @@
 Quando ("acesso a url") do
     #pega no apphost
-    visit ("treinamento/home")
+    visit ("/treinamento/home")
 end
 
 Então ("eu verifico se estou na pagina correta") do
