@@ -20,5 +20,16 @@ Quando('eu entro na janela e verifico a mensagem') do
 end
   
 Quando('eu entro no alert eu verifico e faço a ação') do
+    visit '/mudancadefoco/alert'
+    click_button('Clique para JS Alert')
+    page.accept_alert
     
+    click_button('Clique para JS Confirm')
+    page.dismiss_confirm
+
+    click_button('Clique para JS Prompt')
+    page.accept_prompt(with: "Teste")
+
+    click_button('Clique para JS Prompt')
+    page.dismiss_prompt
 end
