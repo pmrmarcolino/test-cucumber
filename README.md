@@ -1,4 +1,5 @@
 Curso base utilizado: https://www.udemy.com/course/automacao-de-testes-com-capybara-cucumber-e-ruby/
+
 Ruby instalado: 3.0.3
 Gerenciador de versão do ruby: rvm
 
