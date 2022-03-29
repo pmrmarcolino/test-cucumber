@@ -1,8 +1,11 @@
 ## ##YAML Template
-default: --profile progress --profile html_report --profile bvt --profile homolog
+default: --profile progress --profile html_report --profile one_tag --profile chrome --profile homolog
 html_report: --format html --out=features_report.html
-bvt: -t @mapeando_lista_elementos
+one_tag: -t @mapeando_lista_elementos
 progress: --format progress
 pretty: --format pretty
 homolog: ENVIRONMENT=homolog
 prod: ENVIRONMENT=prod
+chrome: BROWSER=chrome
+firefox: BROWSER=firefox
+safari: BROWSER=safari
