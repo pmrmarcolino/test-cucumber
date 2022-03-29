@@ -1,0 +1,8 @@
+## ##YAML Template
+default: --profile progress --profile html_report --profile bvt --profile homolog
+html_report: --format html --out=features_report.html
+bvt: -t @mapeando_lista_elementos
+progress: --format progress
+pretty: --format pretty
+homolog: ENVIRONMENT=homolog
+prod: ENVIRONMENT=prod
