@@ -1,5 +1,5 @@
 ## ##YAML Template
-default: --profile progress --profile html_report --profile one_tag --profile chrome --profile homolog
+default: --profile progress --profile html_report --profile one_tag --profile chrome_headless --profile homolog
 html_report: --format html --out=features_report.html
 one_tag: -t @mapeando_lista_elementos
 progress: --format progress
@@ -7,5 +7,6 @@ pretty: --format pretty
 homolog: ENVIRONMENT=homolog
 prod: ENVIRONMENT=prod
 chrome: BROWSER=chrome
+chrome_headless: BROWSER=chrome_headless
 firefox: BROWSER=firefox
 safari: BROWSER=safari
