@@ -1,7 +1,7 @@
 ## ##YAML Template
-default: --profile progress --profile html_report --profile one_tag --profile chrome_headless --profile homolog
-html_report: --format html --out=features_report.html
-one_tag: -t @mapeando_lista_elementos
+default: --profile pretty --profile html_report --profile chrome_headless --profile homolog 
+html_report: --format html --out=reports/features_report.html
+one_tag: -t @sessao
 progress: --format progress
 pretty: --format pretty
 homolog: ENVIRONMENT=homolog

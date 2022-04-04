@@ -2,9 +2,13 @@ require 'capybara/cucumber'
 require 'selenium-webdriver'
 require 'site_prism'
 require 'rspec'
+require 'capybara-screenshot/cucumber'
+require 'capybara-screenshot/rspec'
 require_relative 'page_helper.rb'
+require_relative 'helper.rb'
 
 World(PageObjects)
+World(Helper)
 
 BROWSER = ENV['BROWSER']
 ENVIRONMENT = ENV['ENVIRONMENT']

@@ -8,12 +8,12 @@ class ListaElementos < SitePrism::Page
     elements :tabela, 'tr > td'
 
     def elemento_tabela (elemento)
-        puts tabela[elemento].text
+        tabela[elemento].text
     end
 
     def imprime_tabela
         tabela.each do |elemento|
-            puts elemento.text
+            elemento.text
         end
     end
 
